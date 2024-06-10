@@ -54,9 +54,10 @@ def stc():
             # write to csv
             writer.writerow([name, artists])
 
-def cty():
-
-
 
 def main():
     stc()
+
+
+if __name__ == "main":
+    main()
