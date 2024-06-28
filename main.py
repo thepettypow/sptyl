@@ -17,7 +17,7 @@ CLIENT_SECRET = os.getenv("CLIENT_SECRET", "")
 OUTPUT_FILE_NAME = "tracks.csv"
 
 # change for your target playlist
-PLAYLIST_LINK = "https://open.spotify.com/playlist/6nGX6s6mecH0mJAyUUr2Ws?si=a39da8a7ccf3475e"
+PLAYLIST_LINK = "LINK"
 
 
 
@@ -66,7 +66,7 @@ tracks_df = pd.read_csv(input_csv)
 # Add a column for YouTube links
 tracks_df['YouTube Link'] = None
 # Your YouTube API key
-youtube_api_key = 'AIzaSyB38qnuta0hz27_uIXQ4wZFMQrL2dKRTVA'  # Replace with your YouTube API key
+youtube_api_key = 'KEY'  # Replace with your YouTube API key
 # Search for each track and artist
 for index, row in tracks_df.iterrows():
     track = row['track']
